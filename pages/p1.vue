@@ -94,7 +94,7 @@
             </div>
 
             <div class="w-full flex py-6 justify-center">
-              <UButton icon="i-ph-arrow-down" square color="black" size="md" />
+              <icon name="i-ph-arrow-down" class="text-2xl" />
             </div>
 
             <div class="space-y-4">
@@ -157,7 +157,7 @@
             </div>
 
             <div class="w-full flex py-6 justify-center">
-              <UButton icon="i-ph-x" square color="black" size="md" />
+              <icon name="i-ph-x" class="text-2xl" />
             </div>
 
             <div>
@@ -211,7 +211,7 @@
             </div>
 
             <div class="w-full flex py-6 pt-8 justify-center">
-              <UButton icon="i-ph-arrow-down" square color="black" size="md" />
+              <icon name="i-ph-arrow-down" class="text-2xl" />
             </div>
 
             <div class="text-lg space-y-4 text-center">
