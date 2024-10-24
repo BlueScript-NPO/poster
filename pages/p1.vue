@@ -23,18 +23,19 @@
 
             <p class="pb-2 text-lg">
               <span class="text-5xl font-semibold text-negative">난독증</span
-              >(難讀症): 글은 읽을 수는 있지만 글을 읽고 이해하는데 어려움이
-              있는 학습 장애
+              >(難讀症): 글은 읽을 수는 있지만 <br />글을 읽고 이해하는데
+              어려움이 있는 학습 장애
             </p>
 
             <p class="pb-2 text-lg">
               중학교 입학 무렵
               <span class="text-5xl font-semibold text-negative">2년</span> 간
-              집중 훈련 덕에 어느정도 극복에 성공.
+              집중 훈련 덕에<br />
+              어느 정도 극복에 성공.
             </p>
             <p class="text-lg">
               그렇지만
-              <span class="font-semibold text-negative">시기가 늦어</span>
+              <span class="font-semibold text-negative">시기가 늦어</span><br />
               완전한 극복은 하지 못함.
             </p>
           </BentoCard>
@@ -86,7 +87,7 @@
         <!-- Box 3: Top Right Small Box -->
         <div class="col-span-3 row-span-3 col-start-10 row-start-4">
           <BentoCard
-            class="bg-gradient-to-b from-zinc-50 to-zinc-100 text-zinc-700"
+            class="bg-gradient-to-b from-zinc-50 to-zinc-100 text-zinc-800"
           >
             <div class="w-full flex justify-center pb-12">
               <h1 class="text-3xl font-normal">
@@ -102,8 +103,8 @@
               </p>
               <p>
                 <span class="text-5xl font-semibold text-gold-light">2.</span>
-                누구나 자유롭게 소프트웨어에 사용된 코드를 수정/보안하고 공유할
-                수 있어야 한다.
+                누구나 자유롭게 소프트웨어에 사용된 코드를 수정/보완하고 <br />
+                공유할 수 있어야 한다.
               </p>
               <p>
                 <span class="text-5xl font-semibold text-gold-light">3.</span>
@@ -119,7 +120,9 @@
             <div class="space-y-4">
               <p>
                 <span class="text-5xl font-semibold text-gold-light">웹 앱</span
-                >으로 플랫폼과 장소의 구애 없이 쉽게 훈련
+                >으로 <br />
+                플랫폼과 장소의<br />
+                구애 없이 쉽게 훈련
               </p>
               <p>
                 <span class="text-5xl font-semibold text-gold-light"
@@ -132,7 +135,9 @@
 
         <!-- Box 4: Large Center Box -->
         <div class="col-span-6 row-span-4 col-start-1 row-start-1">
-          <BentoCard class="relative bg-[#141F5C] text-white border-none">
+          <BentoCard
+            class="relative bg-blueScriptBlue-700 text-white border-none"
+          >
             <!-- Mockup Image -->
             <div class="absolute inset-0">
               <NuxtImg src="/mockup-1.png" class="w-full h-full object-cover" />
@@ -152,6 +157,11 @@
               <p class="text-2xl">코딩하는선비</p>
               <p class="italic text-sm">고요한 아침의 개발자</p>
             </div>
+
+            <!-- Small Text Box: Bottom Left Corner -->
+            <div class="absolute bottom-2 right-2">
+              <p class="text-xs text-zinc-100">(자체 제작)</p>
+            </div>
           </BentoCard>
         </div>
 
@@ -167,11 +177,12 @@
 
             <div>
               <p class="text-left text-lg">
-                <span class="font-semibold">소프트웨어를 배포</span>하는 비용은
+                <span class="font-semibold">소프트웨어 배포</span> 비용은
                 <span class="text-5xl font-semibold">0에</span> 수렴 할 수
                 있지만 소프트웨어는
                 <span class="font-semibold"
-                  >누군가의 삶에 큰 영향을 미칠 수 있다</span
+                  >누군가의 삶에 <br />
+                  큰 영향을 미칠 수 있다</span
                 >
               </p>
             </div>
@@ -197,13 +208,12 @@
                 <span class="font-semibold">신경 가소성</span>
               </h1>
             </div>
-            <p class="italic text-zinc-700 text-md text-right pb-20">
-              (Synaptic Plasticity)
-            </p>
+            <p class="italic text-md text-right pb-20">(Synaptic Plasticity)</p>
 
             <div>
-              <p class="text-left text-lg">
-                일반적으로 책을 읽을 때 받을 수 없는 강하고 반복적인
+              <p class="text-left text-xl">
+                일반적으로 책을 읽을 때 받을 수 없는 <br />
+                강하고 반복적인
                 <span class="text-5xl font-semibold"> 자극</span>을 이용해
                 독서할 때 정보 전달을 원활하게 하는
                 <span class="text-5xl font-semibold">신경회로</span>가 형성
@@ -215,20 +225,19 @@
         <!-- Box 7: Bottom Center Medium Box -->
         <div class="col-span-6 row-span-2 col-start-4 row-start-5">
           <BentoCard>
-            <div class="w-full flex justify-center pb-14">
-              <h1 class="text-3xl font-semibold">새로운 시점</h1>
+            <div class="w-full flex justify-center pb-8">
+              <h1 class="text-3xl font-semibold">새로운 관점</h1>
             </div>
 
             <div class="text-lg text-center">
-              <p>
-                난독증의 문제를
-                <span class="text-5xl font-semibold">언어학적</span> 관점 대신
+              <p class="mb-4">
+                난독증의 문제를 언어학적 관점 대신<br />
                 <span class="text-5xl font-semibold">뇌과학적</span> 관점으로
                 접근
               </p>
               <p>
-                난독증은 읽기를 담당하는 뇌 영역끼리 연결하는 뉴런 회로가
-                비효율적 으로 구성됨
+                난독증은 읽기를 담당하는<br />
+                뇌 영역끼리 연결하는 읽기 회로가 비효율적 으로 구성됨
               </p>
             </div>
 
@@ -239,7 +248,8 @@
             <div class="text-lg space-y-4 text-center">
               <p>
                 <span class="text-5xl font-semibold">신경 가소성</span>을 이용해
-                비효율적인 뉴런 회로를
+                <br />
+                비효율적인 읽기 회로를<br />
                 <span class="text-5xl font-semibold">효율적으로 재구성</span>
               </p>
             </div>

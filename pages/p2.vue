@@ -7,11 +7,11 @@
         <!-- Box 1: Top Left Small Box -->
         <div class="col-span-3 row-span-2 col-start-10 row-start-5">
           <BentoCard
-            class="bg-gradient-to-b from-zinc-50 to-zinc-100 text-zinc-700"
+            class="bg-gradient-to-b from-zinc-50 to-zinc-100 text-zinc-800"
           >
             <div class="w-full flex justify-center pb-4">
               <h1 class="text-3xl font-normal">
-                첫 <span class="font-semibold">걸음</span>
+                <span class="font-semibold">첫걸음</span>
               </h1>
             </div>
 
@@ -40,8 +40,9 @@
             </div>
 
             <p class="text-lg">
-              BlueScript는 완성된 소프트웨어가 아닌 사용자들에 맞추어 계속
-              변하는 살아있는 소프트웨어 입니다.
+              BlueScript는<br />
+              완성된 소프트웨어가 아닌 사용자들에 맞추어 변하는
+              <span class="font-semibold"> 살아있는 소프트웨어</span>
             </p>
           </BentoCard>
         </div>
@@ -55,8 +56,8 @@
             </div>
 
             <div class="flex-col space-y-2 text-lg">
-              <p>시각 훈련 모듈</p>
-              <p>청각 훈련 모듈</p>
+              <p>시각 훈련 모듈 추가</p>
+              <p>청각 훈련 모듈 신규 추가</p>
               <p>온라인 서비스 강화</p>
               <p>훈련 결과 추적 및 분석 기능</p>
             </div>
@@ -81,17 +82,17 @@
                   난독증으로 어려움을 겪고 있는 전세계
                   <span class="text-3xl font-semibold text-negative">
                     수천만명</span
-                  >의 아이들이 저처럼
+                  >의 아이들이 <br />저처럼
                   <span class="text-3xl font-semibold text-negative"
-                    >고통받지 않으면</span
+                    >고통받지 않기를</span
                   >
-                  합니다.
+                  바랍니다.
                 </p>
               </div>
               <div class="space-y-2">
                 <p>
                   BlueScript는 단순한 도구가 아니라 난독증 극복을 위한
-                  <span class="text-3xl font-semibold text-gold"
+                  <br /><span class="text-3xl font-semibold text-gold"
                     >모든 사람들의 노력</span
                   >
                   이라 생각합니다.
@@ -109,56 +110,94 @@
 
         <!-- Box 4: Large Center Box -->
         <div class="col-span-9 row-span-2 col-start-1 row-start-4">
-          <BentoCard>
-            <div class="w-full flex justify-center">
-              <h1 class="text-3xl font-normal">
-                <span class="font-semibold"> 훈련 모듈 </span>
-              </h1>
-            </div>
+          <BentoCard class="">
+            <div class="w-full h-full flex justify-center -mt-4">
+              <div class="w-full h-full grid grid-cols-3 gap-4 p-4">
+                <!-- Title and Subtitle Card -->
+                <div class="flex-col justify-center rounded-lg p-4 relative">
+                  <h1 class="text-3xl font-semibold">훈련 모듈</h1>
+                  <p class="text-lg font-normal mt-2 mb-10">
+                    모듈 기반 훈련 아키텍쳐 덕에 손쉽게 새로운 훈련 모듈을
+                    추가할 수 있습니다.
+                  </p>
+                  <div class="absolute bottom-2 right-2">
+                    <p class="text-xs text-zinc-700">(이미지 자체 제작)</p>
+                  </div>
+                </div>
 
-            <div class="flex flex-wrap gap-4 justify-between pt-4 px-12">
-              <div class="flex-col w-[30%] justify-center">
-                <NuxtImg src="/Rapid Visual Perception.png" />
-                <p class="text-xl font-semibold">빠른 시각 인지</p>
-                <p class="text-sm">
-                  250ms 이하의 시간 안에 화면에 나타나는 문자를 식별하고
-                  입력하는 훈련.
-                </p>
-              </div>
+                <!-- Training Module 1 -->
+                <div
+                  class="flex-col justify-center border border-zinc-300 rounded-lg p-3"
+                >
+                  <NuxtImg
+                    src="/Rapid Visual Perception.png"
+                    class="border border-zinc-300 rounded-md mb-2"
+                  />
+                  <p class="text-xl font-semibold">빠른 시각 인지</p>
+                  <p class="text-xs">
+                    250ms 이하의 시간 안에 화면에 나타나는 문자를 식별하고
+                    입력하는 훈련.
+                  </p>
+                </div>
 
-              <div class="flex-col w-[30%] justify-center">
-                <NuxtImg src="/Sequential Visual Memory.png" />
-                <p class="text-xl font-semibold">순차적 시각 기억</p>
-                <p class="text-sm">
-                  일련의 문자를 순차적으로 식별하고 기억한 후, 일정 시간이 지난
-                  후에 다시 입력하는 훈련.
-                </p>
-              </div>
+                <!-- Training Module 2 -->
+                <div
+                  class="flex-col justify-center border border-zinc-300 rounded-lg p-3"
+                >
+                  <NuxtImg
+                    src="/Sequential Visual Memory.png"
+                    class="border border-zinc-300 rounded-md mb-2"
+                  />
+                  <p class="text-xl font-semibold">순차적 시각 기억</p>
+                  <p class="text-xs">
+                    일련의 문자를 순차적으로 식별하고 기억한 후, 일정 시간이
+                    지난 후에 다시 입력하는 훈련.
+                  </p>
+                </div>
 
-              <div class="flex-col w-[30%] justify-center">
-                <NuxtImg src="/Character Sequencing.png" />
-                <p class="text-xl font-semibold">문자 순차 처리</p>
-                <p class="text-sm">
-                  보기를 순서대로 찾고, 오른쪽 화살표 키와 스페이스바를 사용하여
-                  문자를 입력하는 훈련.
-                </p>
-              </div>
+                <!-- Training Module 3 -->
+                <div
+                  class="flex-col justify-center border border-zinc-300 rounded-lg p-3"
+                >
+                  <NuxtImg
+                    src="/Character Sequencing.png"
+                    class="border border-zinc-300 rounded-md mb-2"
+                  />
+                  <p class="text-xl font-semibold">문자 순차 처리</p>
+                  <p class="text-xs">
+                    보기를 순서대로 찾고, 오른쪽 화살표 키와 스페이스바를
+                    사용하여 문자를 입력하는 훈련.
+                  </p>
+                </div>
 
-              <div class="flex-col w-[30%] justify-center">
-                <NuxtImg src="/Character Matching.png" />
-                <p class="text-xl font-semibold">문자 대조</p>
-                <p class="text-sm">
-                  보기와 시각적으로 비슷한 문자열들 중에서 일치하는 문자열을
-                  클릭하는 훈련.
-                </p>
-              </div>
+                <!-- Training Module 4 -->
+                <div
+                  class="flex-col justify-center border border-zinc-300 rounded-lg p-3"
+                >
+                  <NuxtImg
+                    src="/Character Matching.png"
+                    class="border border-zinc-300 rounded-md mb-2"
+                  />
+                  <p class="text-xl font-semibold">문자 대조</p>
+                  <p class="text-xs">
+                    보기와 시각적으로 비슷한 문자열들 중에서 일치하는 문자열을
+                    클릭하는 훈련.
+                  </p>
+                </div>
 
-              <div class="flex-col w-[30%] justify-center">
-                <NuxtImg src="/Character Guesstimate.png" />
-                <p class="text-xl font-semibold">문자 추정</p>
-                <p class="text-sm">
-                  서서히 나타나는 문자를 가능한 한 빨리 식별하는 훈련.
-                </p>
+                <!-- Training Module 5 -->
+                <div
+                  class="flex-col justify-center border border-zinc-300 rounded-lg p-3"
+                >
+                  <NuxtImg
+                    src="/Character Guesstimate.png"
+                    class="border border-zinc-300 rounded-md mb-2"
+                  />
+                  <p class="text-xl font-semibold">문자 추정</p>
+                  <p class="text-xs">
+                    서서히 나타나는 문자를 가능한 한 빨리 식별하는 훈련.
+                  </p>
+                </div>
               </div>
             </div>
           </BentoCard>
@@ -173,9 +212,15 @@
               </h1>
             </div>
 
-            <NuxtImg src="/Infrastructure.png" class="p-4" />
+            <div class="p-4 relative">
+              <NuxtImg src="/Infrastructure.png" />
+              <!-- Small Text Box: Bottom Left Corner -->
+              <div class="absolute bottom-2 right-2">
+                <p class="text-xs text-zinc-700">(자체 제작)</p>
+              </div>
+            </div>
 
-            <div class="text-lg mt-8">
+            <div class="text-lg mt-8 -mx-2">
               <p>
                 배포 용이성을 위해
                 <span class="text-5xl font-semibold">Docker</span> 기반
@@ -184,16 +229,18 @@
               </p>
             </div>
           </BentoCard>
+
+          <!-- Small Text Box: Bottom Left Corner -->
         </div>
 
         <!-- Box 7: Bottom Center Medium Box -->
         <div class="col-span-6 row-span-1 col-start-1 row-start-3">
           <BentoCard
-            class="bg-gradient-to-b from-zinc-50 to-zinc-100 text-zinc-700"
+            class="bg-gradient-to-b from-zinc-50 to-zinc-100 text-zinc-800"
           >
             <div class="w-full flex justify-center pb-6">
               <h1 class="text-3xl font-normal">
-                <span class="font-semibold">커뮤니티 </span>와 함께하다
+                <span class="font-semibold">커뮤니티</span>와 함께하다
               </h1>
             </div>
 
@@ -238,7 +285,13 @@
               </h1>
             </div>
 
-            <NuxtImg src="/architecture.png" class="p-4" />
+            <div class="p-4 relative">
+              <NuxtImg src="/architecture.png" />
+              <!-- Small Text Box: Bottom Left Corner -->
+              <div class="absolute bottom-2 right-2">
+                <p class="text-xs text-zinc-700">(자체 제작)</p>
+              </div>
+            </div>
 
             <div class="text-lg mb-4">
               <p class="text-center">
