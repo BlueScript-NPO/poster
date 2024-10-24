@@ -5,16 +5,16 @@
         class="p-4 w-full h-full bg-white grid grid-cols-12 grid-rows-6 gap-4"
       >
         <!-- Box 1: Top Left Small Box -->
-        <div class="col-span-3 row-span-2 col-start-1 row-start-1">
+        <div class="col-span-3 row-span-2 col-start-7 row-start-3">
           <BentoCard>
-            <div class="w-full flex justify-center">
+            <div class="w-full flex justify-center mb-4">
               <h1 class="text-3xl font-normal">
                 <span class="font-semibold">난독증</span>과의
                 <span class="font-semibold">투쟁</span>
               </h1>
             </div>
 
-            <p class="italic text-zinc-700 text-md text-right pb-10">
+            <p class="italic pb-2 text-xl text-right mb-6">
               저는 난독증과 아직 사투를 <br />
               벌이고 있습니다.
             </p>
@@ -37,7 +37,7 @@
         </div>
 
         <!-- Box 2: Top Center Medium Box -->
-        <div class="col-span-6 row-span-1 col-start-4 row-start-1">
+        <div class="col-span-6 row-span-1 col-start-7 row-start-1">
           <BentoCard>
             <div class="w-full flex justify-center pb-8">
               <h1 class="text-3xl font-normal">
@@ -69,7 +69,7 @@
         </div>
 
         <!-- Box 3: Top Right Small Box -->
-        <div class="col-span-3 row-span-3 col-start-10 row-start-1">
+        <div class="col-span-3 row-span-3 col-start-10 row-start-4">
           <BentoCard>
             <div class="w-full flex justify-center pb-12">
               <h1 class="text-3xl font-normal">
@@ -110,7 +110,7 @@
         </div>
 
         <!-- Box 4: Large Center Box -->
-        <div class="col-span-6 row-span-3 col-start-4 row-start-2">
+        <div class="col-span-6 row-span-4 col-start-1 row-start-1">
           <BentoCard class="relative">
             <!-- Mockup Image -->
             <div class="absolute inset-0">
@@ -122,12 +122,12 @@
               class="relative z-10 w-full flex justify-center items-center h-[26%] flex-col text-center p-4"
             >
               <NuxtImg src="/logo.svg" class="w-[23%]" />
-              <p class="mt-4 font-normal text-2xl mb-2">
+              <p class="mt-4 font-normal text-3xl mb-2">
                 난독증 환자들을 위한
-                <span class="text-5xl font-semibold">뇌과학 방법론</span> 기반
+                <span class="text-6xl font-semibold">뇌과학 방법론</span> 기반
                 훈련 프로그램
               </p>
-              <p class="text-md text-zinc-700">
+              <p class="text-2xl text-zinc-700">
                 <span class="italic text-sm"> 고요한 아침의 개발자,</span>
                 코딩하는선비
               </p>
@@ -136,7 +136,7 @@
         </div>
 
         <!-- Box 5: Middle Left Tall Box -->
-        <div class="col-span-3 row-span-2 col-start-1 row-start-3">
+        <div class="col-span-3 row-span-2 col-start-10 row-start-2">
           <BentoCard>
             <div class="w-full flex justify-center pb-16">
               <h1 class="text-3xl font-normal">
@@ -170,7 +170,7 @@
         </div>
 
         <!-- Box 6: Middle Right Tall Box -->
-        <div class="col-span-3 row-span-2 col-start-10 row-start-4">
+        <div class="col-span-3 row-span-2 col-start-7 row-start-5">
           <BentoCard>
             <div class="w-full flex justify-center">
               <h1 class="text-3xl font-normal">
@@ -193,13 +193,13 @@
         </div>
 
         <!-- Box 7: Bottom Center Medium Box -->
-        <div class="col-span-9 row-span-2 col-start-1 row-start-5">
+        <div class="col-span-6 row-span-2 col-start-1 row-start-5">
           <BentoCard>
             <div class="w-full flex justify-center pb-14">
               <h1 class="text-3xl font-semibold">새로운 시점</h1>
             </div>
 
-            <div class="text-lg space-y-4 text-center">
+            <div class="text-lg text-center">
               <p>난독증의 문제를 언어학적 관점 대신 뇌과학적 관점으로 접근</p>
 
               <p>
@@ -225,7 +225,7 @@
         </div>
 
         <!-- Box 8: Bottom Wide Box -->
-        <div class="col-span-3 row-span-1 col-start-10 row-start-6">
+        <div class="col-span-3 row-span-1 col-start-7 row-start-2">
           <BentoCard>
             <div class="w-full flex justify-center pb-6">
               <h1 class="text-3xl font-normal">
