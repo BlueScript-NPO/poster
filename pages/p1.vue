@@ -1,12 +1,14 @@
 <template>
-  <div class="w-full h-screen bg-zinc-950 text-zinc-950 break-keep">
+  <div class="w-full h-screen bg-white text-zinc-950 break-keep">
     <ScalingPoster>
       <div
-        class="p-4 w-full h-full bg-white grid grid-cols-12 grid-rows-6 gap-4"
+        class="p-6 w-full h-full bg-white grid grid-cols-12 grid-rows-6 gap-4"
       >
         <!-- Box 1: Top Left Small Box -->
         <div class="col-span-3 row-span-2 col-start-7 row-start-3">
-          <BentoCard>
+          <BentoCard
+            class="border-none border-none bg-gradient-to-b from-zinc-800 to-black text-white text-white"
+          >
             <div class="w-full flex justify-center mb-4">
               <h1 class="text-3xl font-normal">
                 <span class="font-semibold">난독증</span>과의
@@ -20,25 +22,29 @@
             </p>
 
             <p class="pb-2 text-lg">
-              <span class="text-5xl font-semibold">난독증</span>(難讀症): 글은
-              읽을 수는 있지만 글을 읽고 이해하는데 어려움이 있는 학습 장애
+              <span class="text-5xl font-semibold text-negative">난독증</span
+              >(難讀症): 글은 읽을 수는 있지만 글을 읽고 이해하는데 어려움이
+              있는 학습 장애
             </p>
 
             <p class="pb-2 text-lg">
               중학교 입학 무렵
-              <span class="text-5xl font-semibold">2년</span> 간 집중 훈련 덕에
-              어느정도 극복에 성공.
+              <span class="text-5xl font-semibold text-negative">2년</span> 간
+              집중 훈련 덕에 어느정도 극복에 성공.
             </p>
             <p class="text-lg">
-              그렇지만 <span class="font-semibold">시기가 늦어</span> 완전한
-              극복은 하지 못함.
+              그렇지만
+              <span class="font-semibold text-negative">시기가 늦어</span>
+              완전한 극복은 하지 못함.
             </p>
           </BentoCard>
         </div>
 
         <!-- Box 2: Top Center Medium Box -->
         <div class="col-span-6 row-span-1 col-start-7 row-start-1">
-          <BentoCard>
+          <BentoCard
+            class="border-none bg-gradient-to-b from-zinc-800 to-black text-white"
+          >
             <div class="w-full flex justify-center pb-8">
               <h1 class="text-3xl font-normal">
                 <span class="font-semibold">숫자</span>로 보는
@@ -50,18 +56,27 @@
               <div class="flex flex-col space-y-3">
                 <p class="text-xl">
                   전 세계 인구의 약
-                  <span class="text-5xl font-semibold">5%</span>
+                  <span class="text-5xl font-semibold text-negative">5%</span>
                 </p>
                 <p class="text-xl">
-                  골든 타임 만 <span class="text-5xl font-semibold">12세</span>
+                  골든 타임 만
+                  <span class="text-5xl font-semibold text-negative">12세</span>
                 </p>
               </div>
               <div class="grid grid-col gap-4 text-right text-lg">
-                <p>의료보험 <span class="font-semibold">사각지대</span></p>
-                <p>부담 되는 <span class="font-semibold">훈련 비용</span></p>
                 <p>
-                  <span class="font-semibold">해외기업 솔루션</span>의 부족한
-                  <span class="font-semibold">한글화</span>
+                  의료보험
+                  <span class="font-semibold text-negative">사각지대</span>
+                </p>
+                <p>
+                  부담 되는
+                  <span class="font-semibold text-negative">훈련 비용</span>
+                </p>
+                <p>
+                  <span class="font-semibold text-negative"
+                    >해외기업 솔루션</span
+                  >의 부족한
+                  <span class="font-semibold text-negative">한글화</span>
                 </p>
               </div>
             </div>
@@ -70,7 +85,9 @@
 
         <!-- Box 3: Top Right Small Box -->
         <div class="col-span-3 row-span-3 col-start-10 row-start-4">
-          <BentoCard>
+          <BentoCard
+            class="bg-gradient-to-b from-zinc-50 to-zinc-100 text-zinc-700"
+          >
             <div class="w-full flex justify-center pb-12">
               <h1 class="text-3xl font-normal">
                 <span class="font-semibold">영감</span>의
@@ -80,16 +97,18 @@
 
             <div class="text-lg space-y-4">
               <p>
-                <span class="text-5xl font-semibold">1.</span> 누구나 컴퓨터만
-                있으면 난독증 훈련을 할 수 있다.
+                <span class="text-5xl font-semibold text-gold-light">1.</span>
+                누구나 컴퓨터만 있으면 난독증 훈련을 할 수 있다.
               </p>
               <p>
-                <span class="text-5xl font-semibold">2.</span> 누구나 자유롭게
-                소프트웨어에 사용된 코드를 수정/보안하고 공유할 수 있어야 한다.
+                <span class="text-5xl font-semibold text-gold-light">2.</span>
+                누구나 자유롭게 소프트웨어에 사용된 코드를 수정/보안하고 공유할
+                수 있어야 한다.
               </p>
               <p>
-                <span class="text-5xl font-semibold">3.</span> 개인이 통제 하는
-                것이 아닌 커뮤니티가 함께 프로그램 개발에 참여한다.
+                <span class="text-5xl font-semibold text-gold-light">3.</span>
+                개인이 통제 하는 것이 아닌 커뮤니티가 함께 프로그램 개발에
+                참여한다.
               </p>
             </div>
 
@@ -98,12 +117,14 @@
             </div>
 
             <div class="space-y-4">
-              <p class="">
-                <span class="text-5xl font-semibold">웹 앱</span>으로 플랫폼과
-                장소의 구애 없이 쉽게 훈련
+              <p>
+                <span class="text-5xl font-semibold text-gold-light">웹 앱</span
+                >으로 플랫폼과 장소의 구애 없이 쉽게 훈련
               </p>
               <p>
-                <span class="text-5xl font-semibold">오픈소스</span>모델 적용
+                <span class="text-5xl font-semibold text-gold-light"
+                  >오픈소스</span
+                ><br />모델 적용
               </p>
             </div>
           </BentoCard>
@@ -111,7 +132,7 @@
 
         <!-- Box 4: Large Center Box -->
         <div class="col-span-6 row-span-4 col-start-1 row-start-1">
-          <BentoCard class="relative">
+          <BentoCard class="relative bg-[#141F5C] text-white border-none">
             <!-- Mockup Image -->
             <div class="absolute inset-0">
               <NuxtImg src="/mockup-1.png" class="w-full h-full object-cover" />
@@ -119,18 +140,17 @@
 
             <!-- Overlay with Logo and Text -->
             <div
-              class="relative z-10 w-full flex justify-center items-center h-[26%] flex-col text-center p-4"
+              class="relative z-10 w-full flex justify-center items-center h-[30%] flex-col text-center p-4"
             >
-              <NuxtImg src="/logo.svg" class="w-[23%]" />
-              <p class="mt-4 font-normal text-3xl mb-2">
-                난독증 환자들을 위한
+              <NuxtImg src="/logo-dark.svg" class="w-[23%]" />
+              <p class="mt-4 font-normal text-3xl mb-6">
+                난독증 개선을 위한
                 <span class="text-6xl font-semibold">뇌과학 방법론</span> 기반
                 훈련 프로그램
               </p>
-              <p class="text-2xl text-zinc-700">
-                <span class="italic text-sm"> 고요한 아침의 개발자,</span>
-                코딩하는선비
-              </p>
+
+              <p class="text-2xl">코딩하는선비</p>
+              <p class="italic text-sm">고요한 아침의 개발자</p>
             </div>
           </BentoCard>
         </div>
@@ -162,7 +182,7 @@
 
             <div>
               <p class="text-left text-lg">
-                <span class="font-semibold">난독증 환자들</span>이 받을 수 있는
+                <span class="font-semibold">난독증</span>이 받을 수 있는
                 <span class="text-5xl font-semibold">도움</span> 은 있기는 할까?
               </p>
             </div>
@@ -170,8 +190,8 @@
         </div>
 
         <!-- Box 6: Middle Right Tall Box -->
-        <div class="col-span-3 row-span-2 col-start-7 row-start-5">
-          <BentoCard>
+        <div class="col-span-3 row-span-2 col-start-1 row-start-5">
+          <BentoCard class="px-6">
             <div class="w-full flex justify-center">
               <h1 class="text-3xl font-normal">
                 <span class="font-semibold">신경 가소성</span>
@@ -193,20 +213,22 @@
         </div>
 
         <!-- Box 7: Bottom Center Medium Box -->
-        <div class="col-span-6 row-span-2 col-start-1 row-start-5">
+        <div class="col-span-6 row-span-2 col-start-4 row-start-5">
           <BentoCard>
             <div class="w-full flex justify-center pb-14">
               <h1 class="text-3xl font-semibold">새로운 시점</h1>
             </div>
 
             <div class="text-lg text-center">
-              <p>난독증의 문제를 언어학적 관점 대신 뇌과학적 관점으로 접근</p>
-
               <p>
-                난독증 환자들은 읽기를 담당하는 뇌 영역끼리 연결하는
-                <span class="text-5xl font-semibold">뉴런 회로</span>가
-                <span class="text-5xl font-semibold">비효율적</span>
-                으로 구성됨
+                난독증의 문제를
+                <span class="text-5xl font-semibold">언어학적</span> 관점 대신
+                <span class="text-5xl font-semibold">뇌과학적</span> 관점으로
+                접근
+              </p>
+              <p>
+                난독증은 읽기를 담당하는 뇌 영역끼리 연결하는 뉴런 회로가
+                비효율적 으로 구성됨
               </p>
             </div>
 
@@ -218,7 +240,7 @@
               <p>
                 <span class="text-5xl font-semibold">신경 가소성</span>을 이용해
                 비효율적인 뉴런 회로를
-                <span class="font-semibold">효율적으로 재구성</span>
+                <span class="text-5xl font-semibold">효율적으로 재구성</span>
               </p>
             </div>
           </BentoCard>
@@ -254,3 +276,23 @@
     </ScalingPoster>
   </div>
 </template>
+
+<style scoped>
+.text-gold {
+  background: linear-gradient(to bottom, #c7b499 27%, #d9c5a9 40%, #d3c6b4 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-light {
+  background: linear-gradient(to bottom, #c7b499 27%, #d3c6b4 40%, #b2a391 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-negative {
+  background: linear-gradient(to bottom, #d0828b 27%, #bd7e83 40%, #994e60 78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+</style>
